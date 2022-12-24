@@ -12,7 +12,7 @@ This repository provides an API endpoint that can accept a text and return assoc
 
 ## Pipeline
 
-![Screenshot](img/pipeline.png)
+![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/img/pipeline.png)
 ## Model Performance
 
 
