@@ -2,19 +2,24 @@ from fastapi import FastAPI
 from main import Trainer
 from preprocessing import process
 
+# Creating dummy arguments to help create model
 class Args:
     def __init__(self):
         self.features = 384
         self.model_name = 'sentence-transformers/paraphrase-MiniLM-L3-v2'
 
+# Path of best trained model
 PATH = '_best.pt'
 
+# Creating API Object
 app = FastAPI()
 
+# Loading Sentiment Analysis Model
 model = Trainer(Args(), pred=True)
 model.load(PATH)
 model.classifier.eval()
 
+# Defining all query operations for API
 @app.get('/')
 def main():
     return {'message': 'Hello! Welcome to airline tweets sentiment analysis!'}

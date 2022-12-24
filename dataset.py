@@ -10,7 +10,10 @@ nltk.download('wordnet')
 
 class TextDataset(Dataset):
     def __init__(self, train=True, seed=421):
+        # Reading and preprocessing dataset
         self.data = self.process(pd.read_csv('airline_sentiment_analysis.csv', index_col=0), 'text')
+
+        # Splitting dataset into Train or Test
         if train:
             self.data, _ = sklearn.model_selection.train_test_split(self.data, random_state=seed)
         else:
@@ -27,18 +30,21 @@ class TextDataset(Dataset):
         return sample
     
     def process(self, df, col):
-        # Regex Processing
+        
         def reg(text):
-            text = re.sub(r'https?:\/\/.*[\r]*|#\w+|[^\w\s]|[0-9]*|', '', str(text).lower().strip())
+            # Removing links and non alphabets
+            text = re.sub(r'https?:\/\/.*[\r]*|#\w+|[^\w\s]|[0-9]*|', '', str(text).lower().strip()) 
             text = re.sub('[ \t]+' , ' ', str(text))
             return text
 
         def stopWordRemoval(x):
+            # Removing Stopwords
             stop = stopwords.words('english')
             x = ' '.join([word for word in str(x).split() if word not in (stop)])
             return x
 
         def lemmatize_text(text):
+            # Removing word stems
             w_tokenizer = nltk.tokenize.WhitespaceTokenizer()
             lemmatizer = nltk.stem.WordNetLemmatizer()
             return ' '.join([lemmatizer.lemmatize(w) for w in w_tokenizer.tokenize(text)])
