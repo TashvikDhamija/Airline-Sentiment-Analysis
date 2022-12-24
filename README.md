@@ -12,7 +12,7 @@ This repository provides an API endpoint that can accept a text and return assoc
 
 ## Pipeline
 
-![Screenshot](pipeline.png)
+![Screenshot](img/pipeline.png)
 ## Model Performance
 
 
