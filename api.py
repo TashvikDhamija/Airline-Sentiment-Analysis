@@ -9,7 +9,7 @@ class Args:
         self.model_name = 'sentence-transformers/paraphrase-MiniLM-L3-v2'
 
 # Path of best trained model
-PATH = '_best.pt'
+PATH = 'models/all-MiniLM-L6-v2_best.pt'
 
 # Creating API Object
 app = FastAPI()
