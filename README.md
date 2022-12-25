@@ -16,6 +16,7 @@ Install Project and Create Environment
 git clone https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project
 cd TrueFoundry-ML-Internship-Project
 conda env create --name airlinesentiment --file requirements.txt
+conda activate airlinesentiment
 ```
 
 To run API
