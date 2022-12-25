@@ -1,7 +1,11 @@
 
-# TrueFoundry ML Internship Project
+# Airline Sentiment Analysis API <a name="TOP"></a>
+
+- - - - 
+## TrueFoundry ML Internship Project
 
 This repository provides an API endpoint that can accept a text and return associated sentiment with it  
+For `Swagger Documentation` go to [API](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/api.json)
 
 ## Pipeline
 
