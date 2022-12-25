@@ -58,7 +58,7 @@ class Trainer(nn.Module):
 
         encoded_input = self.tokenizer(x, padding=True, truncation=True, return_tensors='pt')
         for key in list(encoded_input.keys()):
-            encoded_input[key] = encoded_input[key].to(device)
+            encoded_input[key] = encoded_input[key].to(self.device)
         with torch.no_grad():
             embeddings = self.embedder(**encoded_input)
         return mean_pooling(embeddings, encoded_input['attention_mask'])
