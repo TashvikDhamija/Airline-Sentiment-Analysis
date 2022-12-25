@@ -3,15 +3,18 @@
 
 This repository provides an API endpoint that can accept a text and return associated sentiment with it  
 
+<<<<<<< HEAD
 
 ## Authors
 
 - [@TashvikDhamija](https://www.github.com/TashvikDhamija)
 
 
+=======
+>>>>>>> e80f8f6f2c881e723daff972475ab66e5eb14ff3
 ## Pipeline
 
-![Screenshot](pipeline.png)
+![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/imgs/Pipeline.png)
 ## Model Performance
 
 
@@ -25,3 +28,6 @@ This repository provides an API endpoint that can accept a text and return assoc
 ## Report Link
 https://docs.google.com/document/d/1bK06nV85PNiGM64N5Jtdtam7NCDvVWJJ1CBqesLF664/edit?usp=sharing
 
+## Authors
+
+- [@TashvikDhamija](https://www.github.com/TashvikDhamija)
