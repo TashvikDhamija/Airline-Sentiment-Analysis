@@ -47,6 +47,9 @@ To make changes to the classifier, go to [model.py](https://github.com/TashvikDh
 To make changes to the data loading, go to [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) \
 To make changes to the preprocessing, go to [preprocessing.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/preprocessing.py) and [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) 
 
+Currently, the following classifier is being used: \
+![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/imgs/Classifier.png)
+
 ## Model Performance
 
 
