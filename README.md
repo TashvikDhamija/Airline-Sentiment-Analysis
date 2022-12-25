@@ -58,7 +58,7 @@ To make changes to the preprocessing, go to [preprocessing.py](https://github.co
 | `all-mpnet-base-v2` | 91.9958% |2800 | 420MB|
 
 ## Report Link
-https://docs.google.com/document/d/1bK06nV85PNiGM64N5Jtdtam7NCDvVWJJ1CBqesLF664/edit?usp=sharing
+[`Report`](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/Sentiment%20Analysis%20API.pdf)
 
 ## Authors
 
