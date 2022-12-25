@@ -6,6 +6,42 @@ This repository provides an API endpoint that can accept a text and return assoc
 ## Pipeline
 
 ![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/imgs/Pipeline.png)
+
+
+## Installation
+
+Install Project and Create Environment
+
+```bash
+git clone https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project
+cd TrueFoundry-ML-Internship-Project
+conda env create --name airlinesentiment --file requirements.txt
+```
+
+To run API
+
+```bash
+uvicorn api:app --reload
+```
+
+Click [here](http://127.0.0.1:8000/) to access API \
+Click [here](http://127.0.0.1:8000/docs) to access Swagger UI of API
+
+## Model Training
+
+To train model
+
+```bash
+python main.py [-h] [--model_name MODEL_NAME] [--epochs EPOCHS] [--lr LR]
+               [--batch_size BATCH_SIZE] [--features FEATURES] [--seed SEED]
+               [--log_interval LOG_INTERVAL] [--test_interval TEST_INTERVAL]
+               [--save SAVE]
+```
+
+To make changes to the classifier, go to [model.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/model.py) \
+To make changes to the data loading, go to [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) \
+To make changes to the preprocessing, go to [preprocessing.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/preprocessing.py) and [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) 
+
 ## Model Performance
 
 
