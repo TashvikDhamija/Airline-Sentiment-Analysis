@@ -60,9 +60,3 @@ Currently, the following classifier is being used: \
 | `all-distilroberta-v1` | 92.2037% |4000 | 290MB|
 | `all-mpnet-base-v2` | 91.9958% |2800 | 420MB|
 
-## Report Link
-[`Report`](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/Sentiment%20Analysis%20API.pdf)
-
-## Authors
-
-- [@TashvikDhamija](https://www.github.com/TashvikDhamija)
