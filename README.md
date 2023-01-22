@@ -2,14 +2,14 @@
 # Airline Sentiment Analysis API <a name="TOP"></a>
 
 - - - - 
-## TrueFoundry ML Internship Project
+## Airline Sentiment Analysis
 
 This repository provides an API endpoint that can accept a text and return associated sentiment with it  
-For `Swagger Documentation` go to [API](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/api.json)
+For `Swagger Documentation` go to [API](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/api.json)
 
 ## Pipeline
 
-![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/imgs/Pipeline.png)
+![Screenshot](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/imgs/Pipeline.png)
 
 
 ## Installation
@@ -17,8 +17,8 @@ For `Swagger Documentation` go to [API](https://github.com/TashvikDhamija/TrueFo
 Install Project and Create Environment
 
 ```bash
-git clone https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project
-cd TrueFoundry-ML-Internship-Project
+git clone https://github.com/TashvikDhamija/Airline-Sentiment-Analysis
+cd Airline-Sentiment-Analysis
 conda env create --name airlinesentiment --file requirements.txt
 conda activate airlinesentiment
 ```
@@ -43,12 +43,12 @@ python main.py [-h] [--model_name MODEL_NAME] [--epochs EPOCHS] [--lr LR]
                [--save SAVE]
 ```
 
-To make changes to the classifier, go to [model.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/model.py) \
-To make changes to the data loading, go to [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) \
-To make changes to the preprocessing, go to [preprocessing.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/preprocessing.py) and [dataset.py](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/dataset.py) 
+To make changes to the classifier, go to [model.py](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/model.py) \
+To make changes to the data loading, go to [dataset.py](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/dataset.py) \
+To make changes to the preprocessing, go to [preprocessing.py](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/preprocessing.py) and [dataset.py](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/dataset.py) 
 
 Currently, the following classifier is being used: \
-![Screenshot](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/imgs/Classifier.png)
+![Screenshot](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/imgs/Classifier.png)
 
 ## Model Performance
 
@@ -61,7 +61,7 @@ Currently, the following classifier is being used: \
 | `all-mpnet-base-v2` | 91.9958% |2800 | 420MB|
 
 ## Report Link
-[`Report`](https://github.com/TashvikDhamija/TrueFoundry-ML-Internship-Project/blob/master/Sentiment%20Analysis%20API.pdf)
+[`Report`](https://github.com/TashvikDhamija/Airline-Sentiment-Analysis/blob/master/Sentiment%20Analysis%20API.pdf)
 
 ## Authors
 
